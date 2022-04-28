@@ -3,12 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Класс, который задает поведение главного блока
+/// <summary>
 public class Player : MonoBehaviour
 {
+	
 	[SerializeField] KeyCode keyOne;
 	[SerializeField] KeyCode keyTwo;
 	[SerializeField] Vector3 moveDirection;
-
+	/// <summary>
+	/// Метод, который назначает клавиши
+	/// <summary>
+	/// <param name="Collider other">Клавиша
 	private void FixedUpdate()
 	{
 		if(Input.GetKey(keyOne))
@@ -26,7 +33,10 @@ public class Player : MonoBehaviour
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
 	}
-
+	/// <summary>
+	/// Тригер на прохождения уровня
+	/// <summary>
+	/// <param name="Collider other">Объект
 	private void OnTriggerEnter(Collider other)
 	{
 		if(this.CompareTag("Player") && other.CompareTag("Finish"))
@@ -41,6 +51,10 @@ public class Player : MonoBehaviour
             }
         }
 	}
+	/// <summary>
+	/// Тригер на активирование кнопок
+	/// <summary>
+	/// <param name="Collider other">Объект
     private void OnTriggerExit(Collider other)
     {
 		if (this.CompareTag("Cube") && other.CompareTag("Cube"))
