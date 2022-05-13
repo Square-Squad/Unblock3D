@@ -239,7 +239,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2750}
     - Class: 114
-      Script: {instanceID: 68204}
+      Script: {instanceID: 4008}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1048,6 +1048,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: f0117a28074c9b578936a10f32265cf9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Activator
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1082,12 +1088,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: f0117a28074c9b578936a10f32265cf9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Activator
   platform: 19
   scenePathNames:
   - Assets/Scenes/lvl1.unity
