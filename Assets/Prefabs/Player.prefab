@@ -111,7 +111,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyOne: 115
   keyTwo: 119
+<<<<<<< HEAD
   moveDirection: {x: 0, y: 0, z: 0.75}
+=======
+  keyThree: 97
+  keyFour: 100
+  moveDirection: {x: 0.75, y: 0, z: 0.75}
+>>>>>>> master
 --- !u!54 &5040595592245054274
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -126,5 +132,9 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
+<<<<<<< HEAD
   m_Constraints: 114
+=======
+  m_Constraints: 112
+>>>>>>> master
   m_CollisionDetection: 0

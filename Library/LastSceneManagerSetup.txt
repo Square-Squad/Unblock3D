@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/lvl3.unity
+=======
+- path: Assets/Scenes/lvl9.unity
+>>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0

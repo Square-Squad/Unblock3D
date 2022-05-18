@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+<<<<<<< HEAD
 /// <summary>
 /// Класс, который задает поведение кнопок и активированных блоков
 /// <summary>
+=======
+>>>>>>> master
 public class Activator : MonoBehaviour
 {
     public GameObject[] firstGroup;
@@ -14,10 +17,13 @@ public class Activator : MonoBehaviour
     public Material transparent;
     public bool canPush;
 
+<<<<<<< HEAD
     /// <summary>
 	/// Тригер на активирование кнопок
 	/// <summary>
 	/// <param name="Collider other">Объект
+=======
+>>>>>>> master
     private void OnTriggerEnter(Collider other)
     {
         if (canPush)
