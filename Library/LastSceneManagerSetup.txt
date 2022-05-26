@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/lvlfinal11.unity
+- path: Assets/LVLS.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
