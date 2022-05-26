@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/lvl3.unity
 =======
 - path: Assets/Scenes/lvl9.unity
 >>>>>>> master
+=======
+- path: Assets/LVLS.unity
+>>>>>>> 9078ac7043dbdf893b7e992907844f9855e24040
   isLoaded: 1
   isActive: 1
   isSubScene: 0
